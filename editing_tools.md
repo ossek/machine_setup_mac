@@ -30,3 +30,13 @@
  - nice packages:
    - JEDI https://github.com/srusskih/SublimeJEDI
 
+## tmux
+  - add to tmux config to open pane or buffer from current location
+
+       bind % split-window -h -c "#{pane_current_path}"
+       bind % new-window -h -c "#{pane_current_path}"
+
+## bash
+ - set edit mode to vim by adding `set editing-mode vi` to the `~/.inputrc`
+
+
